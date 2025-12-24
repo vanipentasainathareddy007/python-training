@@ -9,7 +9,7 @@ for i in range (1,x+1):
         print('buzz')
     else:
         print(i)
-2.pattern printing.
+#2.pattern printing.
 #a.square
 x=int(input())
 for  i in range(x):
@@ -62,6 +62,25 @@ for  i in range(x+4):
             print("*  ",end=" ")
     print()
 
-        
+#6.hollow square
+n=int(input())
+for i in range (n):
+    for j in range (n):
+        if i==0 or j==0 or i==n-1 or j==n-1:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
+#hollow right angle pyramid
+n=int(input())
+for i in range (n):
+    for j in range (i+1):
+        if i==n-1 or j==0 or i==j :
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
+    
+
         
 
