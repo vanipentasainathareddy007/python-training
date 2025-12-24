@@ -1,0 +1,15 @@
+'''x=int(input())
+for i in range (1,x+1):
+    if((i%3==0)&(i%5==0)):
+        print('fizz buzzz')
+    elif(i%3==0):
+        print('fizz')
+    elif(i%5==0):
+        print('buzz')
+    else:
+        print(i)'''
+x=int(input())
+for  i in range(x):
+    for j in range(x):
+        print("*",end=" ")
+    print("\n")
