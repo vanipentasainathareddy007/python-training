@@ -1,7 +1,7 @@
 def majorityElement(nums):
     c1=0
     c2=0
-    num1=num2=0
+    num1=num2=None
     for num in nums:
         if num==num1:
             c1+=1 
